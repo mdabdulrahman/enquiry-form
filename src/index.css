@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+.form-width{
+    @apply lg:w-3/6 w-4/6
+}
+@media only screen and (max-width:600px)  {
+    .form-width{
+        @apply w-5/6
+    }
+}

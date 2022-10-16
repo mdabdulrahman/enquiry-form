@@ -19,7 +19,7 @@ export default class Form extends Component {
     return (
       <div>
             <div>
-        <div className='lg:w-3/6 w-4/6  mx-auto my-11'>
+        <div className='form-width  mx-auto my-11'>
         <form onSubmit={(e)=>this.submit(e)} className='grid py-3 gap-4 lg:w-1/2  lg:mx-auto '>
             <label htmlFor='name'>Name : </label>
             <input type="text"  name="name" id="name" className='rounded-sm' placeholder='ex : John' onChange={(e)=>this.setState({name:e.target.value})}  required></input>

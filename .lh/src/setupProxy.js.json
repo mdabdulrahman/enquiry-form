@@ -1,0 +1,94 @@
+{
+    "sourceFile": "src/setupProxy.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1665908897820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665908904907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const proxy=\n\\ No newline at end of file\n+const proxy=require\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908910657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const proxy=require\n\\ No newline at end of file\n+const proxy=require(\"ht\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908919779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-const proxy=require(\"ht\")\n\\ No newline at end of file\n+const proxy=require(\"http-proxy-middleware\")\r\n+module.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908929616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const proxy=require(\"http-proxy-middleware\")\r\n-module.\n\\ No newline at end of file\n+module.exports=\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908934803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const proxy=require(\"http-proxy-middleware\")\r\n-module.exports=\n\\ No newline at end of file\n+module.exports=function\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908941411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n const proxy=require(\"http-proxy-middleware\")\r\n-module.exports=function\n\\ No newline at end of file\n+module.exports=function(app){\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908946585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n-    \r\n+    app.\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908954958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n-    app.\r\n+    app.use(\r\n+        \r\n+    )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908964542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n     app.use(\r\n-        \r\n+        proxy()\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908975476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,10 @@\n const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n     app.use(\r\n-        proxy()\r\n+        proxy(\r\n+            \"\",{\r\n+                \r\n+            }\r\n+        )\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908983911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n module.exports=function(app){\r\n     app.use(\r\n         proxy(\r\n             \"\",{\r\n-                \r\n+                target:\"\"\r\n             }\r\n         )\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908992575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n module.exports=function(app){\r\n     app.use(\r\n         proxy(\r\n             \"\",{\r\n-                target:\"\"\r\n+                target:\"\",\r\n+                ch\r\n             }\r\n         )\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665908999158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     app.use(\r\n         proxy(\r\n             \"\",{\r\n                 target:\"\",\r\n-                ch\r\n+                change\r\n             }\r\n         )\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665909009447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     app.use(\r\n         proxy(\r\n             \"\",{\r\n                 target:\"\",\r\n-                change\r\n+                changeOrigin\r\n             }\r\n         )\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665909066560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n     app.use(\r\n         proxy(\r\n-            \"\",{\r\n+            \"/\",{\r\n                 target:\"\",\r\n-                changeOrigin\r\n+                changeOrigin:true\r\n             }\r\n         )\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665909091166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n     app.use(\r\n         proxy(\r\n-            \"/\",{\r\n+            \"/AKfycbzJEh1syaNzBoSRwIeH6n8IoLTIGuUK7tdnnbxWnlyKlUh87zyQoYsj5cSSreZy5CHu/exec\",{\r\n                 target:\"\",\r\n                 changeOrigin:true\r\n             }\r\n         )\r\n"
+                },
+                {
+                    "date": 1665909119558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n module.exports=function(app){\r\n     app.use(\r\n         proxy(\r\n             \"/AKfycbzJEh1syaNzBoSRwIeH6n8IoLTIGuUK7tdnnbxWnlyKlUh87zyQoYsj5cSSreZy5CHu/exec\",{\r\n-                target:\"\",\r\n+                target:\"https://script.google.com/macros/s\",\r\n                 changeOrigin:true\r\n             }\r\n         )\r\n     )\r\n"
+                },
+                {
+                    "date": 1665909644839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-const proxy=require(\"http-proxy-middleware\")\r\n+/* const proxy=require(\"http-proxy-middleware\")\r\n module.exports=function(app){\r\n     app.use(\r\n         proxy(\r\n             \"/AKfycbzJEh1syaNzBoSRwIeH6n8IoLTIGuUK7tdnnbxWnlyKlUh87zyQoYsj5cSSreZy5CHu/exec\",{\r\n                 target:\"https://script.google.com/macros/s\",\r\n                 changeOrigin:true\r\n             }\r\n         )\r\n-    )\r\n+    ) */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665909651754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n                 changeOrigin:true\r\n             }\r\n         )\r\n     ) */\r\n-}\n\\ No newline at end of file\n+/* } */\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1665908897820,
+            "name": "Commit-0",
+            "content": "const proxy="
+        }
+    ]
+}

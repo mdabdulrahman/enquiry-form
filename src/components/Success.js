@@ -13,6 +13,7 @@ function Success() {
 
     Your enquiry form is successfully submitted</h1>
 <button onClick={()=>navigate("/")} className='bg-sky-500 mx-auto flex justify-center text-white px-3 py-2 my-6 rounded'>Go back</button>
+<button onClick={()=>navigate("/view")} className='bg-sky-500 mx-auto flex justify-center text-white px-3 py-2 my-6 rounded'>Recieved Forms</button>
         </div>
     </div>
   )

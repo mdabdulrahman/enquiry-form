@@ -1,0 +1,114 @@
+{
+    "sourceFile": "src/components/Footer.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 24,
+            "patches": [
+                {
+                    "date": 1665921215735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665921221489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n import React from 'react'\r\n \r\n-function Footer() {\r\n+function \r\n+() {\r\n   return (\r\n-    <div>Footer</div>\r\n+    <div>\r\n+        \r\n\\ No newline at end of file\n+    </div>\r\n   )\r\n }\r\n \r\n-export default Footer\n+export default \r\n"
+                },
+                {
+                    "date": 1665921229902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,16 @@\n import React from 'react'\r\n \r\n function \r\n-() {\r\n+<div>\r\n+</div>() {\r\n   return (\r\n     <div>\r\n-        \r\n+        <div>\r\n+            </div>\r\n     </div>\r\n\\ No newline at end of file\n   )\r\n }\r\n \r\n-export default \n+export default \r\n+<div>\r\n+    </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665921238136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,9 @@\n import React from 'react'\r\n \r\n-function \r\n-<div>\r\n-</div>() {\r\n+function () {\r\n   return (\r\n-    <div>\r\n-        <div>\r\n-            </div>\r\n-    </div>\r\n+    <div></div>\r\n   )\r\n }\r\n \r\n-export default \r\n\\ No newline at end of file\n-<div>\r\n-    </div>\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665921245142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import React from 'react'\r\n \r\n-function () {\r\n+function Footer() {\r\n   return (\r\n-    <div></div>\r\n+    <div>\r\n+        \r\n+    </div>\r\n\\ No newline at end of file\n   )\r\n }\r\n \r\n-export default \n+export default Footer\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665921254120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Footer() {\r\n   return (\r\n     <div>\r\n-        \r\n+        <h1>This w</h1>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921265326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Footer() {\r\n   return (\r\n     <div>\r\n-        <h1>This w</h1>\r\n+        <h1>S.Mohamed Abdul </h1>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921275428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Footer() {\r\n   return (\r\n     <div>\r\n-        <h1>S.Mohamed Abdul </h1>\r\n+        <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921286550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n function Footer() {\r\n   return (\r\n     <div>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n+        <h1>Email id : abdul</h1>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921293642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Footer() {\r\n   return (\r\n     <div>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n-        <h1>Email id : abdul</h1>\r\n+        <h1>Email id : abdul3rahman6@gmail</h1>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921300175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Footer() {\r\n   return (\r\n     <div>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n-        <h1>Email id : abdul3rahman6@gmail</h1>\r\n+        <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921320991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div>\r\n+    <div className=''>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921328785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className=''>\r\n+    <div className='font-laila bottom-0 '>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921338681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 '>\r\n+    <div className='font-laila bottom-0 text-white bold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921393688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 text-white bold'>\r\n+    <div className='font-laila bottom-0 bg-zinc-600 text-white font-bold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921415417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 bg-zinc-600 text-white font-bold'>\r\n+    <div className='font-laila bottom-0 bg-zinc-800 text-white font-bold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921423088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 bg-zinc-800 text-white font-bold'>\r\n+    <div className='font-laila bottom-0 flex jus bg-zinc-800 text-white font-bold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921439244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 flex jus bg-zinc-800 text-white font-bold'>\r\n+    <div className='font-laila bottom-0 flex justify-center bg-zinc-800 text-white font-semibold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921448765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 flex justify-center bg-zinc-800 text-white font-semibold'>\r\n+    <div className='font-laila bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921586345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n+    <div className='font-laila  bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921613810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react'\r\n \r\n function Footer() {\r\n   return (\r\n-    <div className='font-laila  bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n+    <div className='font-laila absolute bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n+        \r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921620121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Footer() {\r\n   return (\r\n     <div className='font-laila absolute bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n-        \r\n+        <div>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n     </div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665921633913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,12 @@\n \r\n function Footer() {\r\n   return (\r\n     <div className='font-laila absolute bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n-        <div>\r\n+        <div v>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n+        </div>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665921667179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Footer() {\r\n   return (\r\n     <div className='font-laila absolute bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n-        <div v>\r\n+        <div className='flex w-full justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n         <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n         <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n         </div>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1665921724415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,9 @@\n \r\n function Footer() {\r\n   return (\r\n     <div className='font-laila absolute bottom-0 flex justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n-        <div className='flex w-full justify-center gap-12 bg-zinc-800 text-white font-semibold'>\r\n-        <h1>Created by S.Mohamed Abdul Rahman</h1>\r\n-        <h1>Email id : abdul3rahman7@gmail.com</h1>\r\n-        </div>\r\n+       \r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1665921215734,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nfunction Footer() {\r\n  return (\r\n    <div>Footer</div>\r\n  )\r\n}\r\n\r\nexport default Footer"
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "sourceFile": "src/components/View.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 30,
+            "patches": [
+                {
+                    "date": 1665900142455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665900255895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import React from 'react'\r\n+import \r\n+function View() {\r\n+  return (\r\n+    <div>View</div>\r\n+  )\r\n+}\r\n+\r\n+export default View\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665900261540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n-import \r\n+import axios from \"\"\r\n function View() {\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900271777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import React from 'react'\r\n-import axios from \"\"\r\n+import axios from \"axios\"\r\n function View() {\r\n+    \r\n   return (\r\n     <div>View</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665900279483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n-    \r\n+    let get\r\n   return (\r\n     <div>View</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665900286819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n-    let get\r\n+    let getData=(=>{\r\n+        \r\n+    })\r\n   return (\r\n     <div>View</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665900292902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n-    let getData=(=>{\r\n-        \r\n+    let getData=()=>{\r\n+\r\n     })\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900299489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-\r\n-    })\r\n+a\r\n+    }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665900306111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-a\r\n+axios.get()\r\n     }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900319332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-axios.get()\r\n+axios.get(https://sheetdb.io/api/v1/8s7a8kw264v10)\r\n     }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900326844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-axios.get(https://sheetdb.io/api/v1/8s7a8kw264v10)\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\")\r\n     }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900342890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\")\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res))\r\n     }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900348553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res))\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console)\r\n     }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900366708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console)\r\n+        console.log(\"getting data\")\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res))\r\n     }\r\n   return (\r\n     <div>View</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1665900376490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n-        console.log(\"getting data\")\r\n+        console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res))\r\n     }\r\n+    getData\r\n   return (\r\n     <div>View</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665900408695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import axios from \"axios\"\r\n function View() {\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res))\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n     }\r\n-    getData\r\n+    getData()\r\n   return (\r\n     <div>View</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665900569337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n+import ReactTable from \"react-table\"; \r\n function View() {\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n"
+                },
+                {
+                    "date": 1665900578109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React from 'react'\r\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n+    use\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n     }\r\n"
+                },
+                {
+                    "date": 1665900589971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-import React from 'react'\r\n+import React,{} from 'react'\r\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n-    use\r\n+    const [first, setfirst] = useState(second)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n     }\r\n"
+                },
+                {
+                    "date": 1665900595397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React,{} from 'react'\r\n+import React,{useState} from 'react'\r\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n     const [first, setfirst] = useState(second)\r\n"
+                },
+                {
+                    "date": 1665900604185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React,{useState} from 'react'\r\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n-    const [first, setfirst] = useState(second)\r\n+    const [data, setfirst] = useState(second)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n     }\r\n"
+                },
+                {
+                    "date": 1665900610964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React,{useState} from 'react'\r\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n-    const [data, setfirst] = useState(second)\r\n+    const [data, setdata] = useState(second)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n     }\r\n"
+                },
+                {
+                    "date": 1665900618574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React,{useState} from 'react'\r\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n-    const [data, setdata] = useState(second)\r\n+    const [data, setdata] = useState(null)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n     }\r\n"
+                },
+                {
+                    "date": 1665900629687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n function View() {\r\n     const [data, setdata] = useState(null)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>console.log(res.data))\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data))\r\n     }\r\n     getData()\r\n   return (\r\n     <div>View</div>\r\n"
+                },
+                {
+                    "date": 1665900635424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n function View() {\r\n     const [data, setdata] = useState(null)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data))\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data)})\r\n     }\r\n     getData()\r\n   return (\r\n     <div>View</div>\r\n"
+                },
+                {
+                    "date": 1665900641490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n function View() {\r\n     const [data, setdata] = useState(null)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data)})\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data);setdata()})\r\n     }\r\n     getData()\r\n   return (\r\n     <div>View</div>\r\n"
+                },
+                {
+                    "date": 1665900646885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n function View() {\r\n     const [data, setdata] = useState(null)\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n-axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data);setdata()})\r\n+axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data);setdata(res.data)})\r\n     }\r\n     getData()\r\n   return (\r\n     <div>View</div>\r\n"
+                },
+                {
+                    "date": 1665900664545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data);setdata(res.data)})\r\n     }\r\n     getData()\r\n   return (\r\n-    <div>View</div>\r\n+    <div>View\r\n+        \r\n+    </div>\r\n   )\r\n }\r\n \r\n export default View\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665900673674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     }\r\n     getData()\r\n   return (\r\n     <div>View\r\n-        \r\n+        <ReactTable data=\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665900679129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     }\r\n     getData()\r\n   return (\r\n     <div>View\r\n-        <ReactTable data={data} \r\n+        <ReactTable data={data} c\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665900743738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import axios from \"axios\"\r\n import ReactTable from \"react-table\"; \r\n function View() {\r\n     const [data, setdata] = useState(null)\r\n-    const colums\r\n+    const columns\r\n     let getData=()=>{\r\n         console.log(\"getting data.........\")\r\n axios.get(\"https://sheetdb.io/api/v1/8s7a8kw264v10\").then((res)=>{console.log(res.data);setdata(res.data)})\r\n     }\r\n"
+                }
+            ],
+            "date": 1665900142455,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

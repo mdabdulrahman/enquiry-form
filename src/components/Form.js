@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from "axios"
+
 export default class Form extends Component {
     constructor(props) {
         super(props);
@@ -10,9 +11,10 @@ export default class Form extends Component {
         e.preventDefault()
         this.setState({status:{load:<><div className='h-6 w-6 rounded-full border-4 border-t-4 border-t-sky-500 bg-sky-500 animate-spin'></div><h1 className='pl-3 '>Submitting...</h1></>}})
             console.log("submitting.....")
+           
             console.log(this.state)
-            axios.post("https://sheetdb.io/api/v1/8s7a8kw264v10",this.state
-            ).then((res)=>{console.log(res);res.status===201?window.location.pathname="/success":window.location.pathname="/fail"})
+            axios.post("https://api.sheety.co/3a9385b743c49c94f44bebe1d4413644/enquiry/sheet1",{sheet1:{...this.state}}
+            ).then((res)=>{console.log(res);window.location.pathname="/success"})
 
     }
   render() {

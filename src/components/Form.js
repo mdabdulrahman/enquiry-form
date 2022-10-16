@@ -26,7 +26,7 @@ export default class Form extends Component {
             <label htmlFor='bname'>Buisness Name : </label>
             <input type="text" name="companyname" id="bname" className='rounded-sm' placeholder='ex : Goods export pvt' onChange={(e)=>this.setState({companyname:e.target.value})}  required></input>
             <label htmlFor='ph'>Phone Number : </label>
-            <input type="tel" name="phonenumber" id="ph" className='rounded-sm ' placeholder='ex : 9876543210' onChange={(e)=>this.setState({phonenumber:e.target.value})}  required ></input>
+            <input type="tel" name="phonenumber" id="ph" pattern="[0-9]*" className='rounded-sm ' placeholder='ex : 9876543210' onChange={(e)=>this.setState({phonenumber:e.target.value})}  required ></input>
             <label htmlFor='mes'>Message : </label>
            <textarea  className='resize-none rounded-sm h-40' name="message" placeholder='Enter your Message' onChange={(e)=>this.setState({message:e.target.value})}   required></textarea>
            <button type="submit" className='bg-sky-500 flex justify-center text-white p-4 rounded'>{this.state.status.load}</button>

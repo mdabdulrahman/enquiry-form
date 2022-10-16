@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div>
-        <div className='container-fluid mx-auto bg-cyan-50 '>
+        <div className='container-fluid mx-auto bg-cyan-50 shadow-sm '>
      
 
             <h1 className='font-bold flex justify-center gap-2 items-center text-sky-500 text-center py-6 text-2xl'>

@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1665842568190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665842579539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,22 +3,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-      <header className=\"App-header\">\n-        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n-        <p>\n-          Edit <code>src/App.js</code> and save to reload.\n-        </p>\n-        <a\n-          className=\"App-link\"\n-          href=\"https://reactjs.org\"\n-          target=\"_blank\"\n-          rel=\"noopener noreferrer\"\n-        >\n-          Learn React\n-        </a>\n-      </header>\n+\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842603731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-\n+<h1 cl\n+>hello</h1>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842610231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-<h1 cl\n->hello</h1>\n+<h1 className='text-'>hello</h1>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842772938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-import logo from './logo.svg';\n+\n import './index.css';\n \n function App() {\n   return (\n     <div className=\"App\">\n-<h1 className='text-'>hello</h1>\n+<h1 className='text-green-500'>hello</h1>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842841471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n-\n import './index.css';\n \n function App() {\n   return (\n     <div className=\"App\">\n-<h1 className='text-green-500'>hello</h1>\n+<He\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842846645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-<He\n+<Hea\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842880176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-<Hea\n+<Header\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842888722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import './index.css';\n-\n+import \n function App() {\n   return (\n     <div className=\"App\">\n-<Header\n+<Header/>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665842901889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import './index.css';\n-import \n+import header from './components/Header';\n function App() {\n   return (\n     <div className=\"App\">\n <Header/>\n"
+                },
+                {
+                    "date": 1665842917441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import './index.css';\n-import header from './components/Header';\n+import Header from './components/Header';\n function App() {\n   return (\n     <div className=\"App\">\n-<Header/>\n+<Hader/>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1665843463376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import './index.css';\n import Header from './components/Header';\n function App() {\n   return (\n-    <div className=\"App font\">\n+    <div className=\"App\">\n <Header/>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1665844575551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import Form from './components/Form';\n function App() {\n   return (\n     <div className=\"App\">\n-      <div className='fon-laila'>\n+      <div className='font-laila'>\n <Header/>\n <Form/>\n </div>\n     </div>\n"
+                }
+            ],
+            "date": 1665842568190,
+            "name": "Commit-0",
+            "content": "import logo from './logo.svg';\nimport './index.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.js</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

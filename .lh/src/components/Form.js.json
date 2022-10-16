@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/components/Form.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1665844440329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665844840657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import React from 'react'\r\n \r\n function Form() {\r\n   return (\r\n-    <div>Form</div>\r\n+    <div>\r\n+        \r\n+    </div>\r\n   )\r\n }\r\n \r\n export default Form\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665844848029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Form() {\r\n   return (\r\n     <div>\r\n-        \r\n+        <form\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665844859040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \r\n function Form() {\r\n   return (\r\n     <div>\r\n-        <form\r\n+        <form>\r\n+            <\r\n+        </form>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665844867029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Form() {\r\n   return (\r\n     <div>\r\n         <form>\r\n-            <\r\n+            <input type=\"text\"\r\n         </form>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665844873156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Form() {\r\n   return (\r\n     <div>\r\n         <form>\r\n-            <input type=\"text\"\r\n+            <input type=\"text\" name=\"name\"\r\n         </form>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665844899409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,11 @@\n \r\n function Form() {\r\n   return (\r\n     <div>\r\n+        \r\n         <form>\r\n-            <input type=\"text\" name=\"name\"\r\n+            <input type=\"text\" name=\"name\" ></input>\r\n         </form>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1665844905972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Form() {\r\n   return (\r\n     <div>\r\n-        \r\n+        <div\r\n         <form>\r\n             <input type=\"text\" name=\"name\" ></input>\r\n         </form>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1665844911366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Form() {\r\n   return (\r\n     <div>\r\n-        <div\r\n+        <div>\r\n         <form>\r\n             <input type=\"text\" name=\"name\" ></input>\r\n         </form>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1665844918636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <div>\r\n         <div>\r\n         <form>\r\n             <input type=\"text\" name=\"name\" ></input>\r\n-        </form>\r\n+        </form></div\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1665845068066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Form() {\r\n   return (\r\n     <div>\r\n-        <div cl>\r\n+        <div className=''>\r\n         <form>\r\n             <input type=\"text\" name=\"name\" ></input>\r\n         </form>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1665845610048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Form() {\r\n   return (\r\n     <div>\r\n         <div className='w-3/6  mx-auto my-11'>\r\n-        <form className='grid py-6 gap-5 grid-cols-1 lg'>\r\n+        <form className='grid py-6 gap-5 grid-cols-1 lg:'>\r\n             <label for='name'>Name : </label>\r\n             <input type=\"text\" name=\"name\" id=\"name\"  required></input>\r\n             <label for='bname'>Buisness Name : </label>\r\n             <input type=\"text\" name=\"bname\" id=\"bname\"  required></input>\r\n"
+                }
+            ],
+            "date": 1665844440329,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nfunction Form() {\r\n  return (\r\n    <div>Form</div>\r\n  )\r\n}\r\n\r\nexport default Form"
+        }
+    ]
+}

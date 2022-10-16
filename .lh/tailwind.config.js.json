@@ -1,0 +1,42 @@
+{
+    "sourceFile": "tailwind.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1665842509269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665842516793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('tailwindcss').Config} */\n module.exports = {\n-  content: [\"./src/**/*.{js,jsx,ts,tsx}\",],\n+  content: [\"./src/**/*.{js}\",],\n   theme: {\n     extend: {},\n   },\n   plugins: [],\n"
+                },
+                {
+                    "date": 1665843378206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n /** @type {import('tailwindcss').Config} */\n module.exports = {\n-  content: [\"./src/**/*.{js}\",],\n+  content: [\"./src/**/*.js\",],\n   theme: {\n-    extend: {},\n+    extend: {\n+      \n+    },\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1665843384538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n module.exports = {\n   content: [\"./src/**/*.js\",],\n   theme: {\n     extend: {\n-      \n+      fontFamily\n     },\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1665843391272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n module.exports = {\n   content: [\"./src/**/*.js\",],\n   theme: {\n     extend: {\n-      fontFamily\n+      fontFamily:\n     },\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1665843397554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n module.exports = {\n   content: [\"./src/**/*.js\",],\n   theme: {\n     extend: {\n-      fontFamily:\n+      fontFamily:{\n+        la\n+      }\n     },\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1665843403256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   content: [\"./src/**/*.js\",],\n   theme: {\n     extend: {\n       fontFamily:{\n-        laila\n+        laila:\n       }\n     },\n   },\n   plugins: [],\n"
+                }
+            ],
+            "date": 1665842509269,
+            "name": "Commit-0",
+            "content": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  content: [\"./src/**/*.{js,jsx,ts,tsx}\",],\n  theme: {\n    extend: {},\n  },\n  plugins: [],\n}\n"
+        }
+    ]
+}
